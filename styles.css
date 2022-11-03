@@ -43,6 +43,9 @@ main{
 #sidebarMenu{
     background-color: #4165e0 !important;
 }
+.nav .nav-item{
+    margin-bottom: 1.5rem;
+}
 .nav-item a{
     color: white;
 }
