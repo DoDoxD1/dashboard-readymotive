@@ -38,65 +38,65 @@
     </header>
 
     <!-- <div class="container"> -->
-        <div class="container-fluid">
-            <div class="row">
-                <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-                    <div class="position-sticky pt-3 sidebar-sticky">
-                        <ul class="nav flex-column">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">
-                                    <span data-feather="home" class="align-text-bottom"></span>
-                                    <img src="images/dashboard.png" alt="" height="25">
-                                    DASHBOARD
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="file" class="align-text-bottom"></span>
-                                    <img src="images/candidate.png" alt="" height="25">
-                                    CANDIDATES
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="shopping-cart" class="align-text-bottom"></span>
-                                    <img src="images/job.png" alt="" height="22">
-                                    JOBS
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="users" class="align-text-bottom"></span>
-                                    <img src="images/talent.png" alt="" height="25">
-                                    TALENT POOLS
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="bar-chart-2" class="align-text-bottom"></span>
-                                    <img src="images/report.png" alt="" height="25">
-                                    REPORTS
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">
-                                    <span data-feather="layers" class="align-text-bottom"></span>
-                                    <img src="images/calendar.png" alt="" height="25">
-                                    CALENDAR
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="position-sticky pt-3 sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <span data-feather="home" class="align-text-bottom"></span>
+                                <img src="images/dashboard.png" alt="" height="25">
+                                DASHBOARD
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="file" class="align-text-bottom"></span>
+                                <img src="images/candidate.png" alt="" height="25">
+                                CANDIDATES
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="shopping-cart" class="align-text-bottom"></span>
+                                <img src="images/job.png" alt="" height="22">
+                                JOBS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="users" class="align-text-bottom"></span>
+                                <img src="images/talent.png" alt="" height="25">
+                                TALENT POOLS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="bar-chart-2" class="align-text-bottom"></span>
+                                <img src="images/report.png" alt="" height="25">
+                                REPORTS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <span data-feather="layers" class="align-text-bottom"></span>
+                                <img src="images/calendar.png" alt="" height="25">
+                                CALENDAR
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <!-- <div class="container-fluid">
+    </div>
+    <!-- <div class="container-fluid">
             <h3>hello</h3>
         </div>
     </div> -->
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        <div class="inteview">
+        <!-- <div class="inteview">
           <h5>Up coming Interview</h5>
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
           <div class="col d-flex align-items-start">
@@ -128,8 +128,114 @@
             </div>
           </div>
         </div>
-      </main>
-    
+        </div> -->
+        <div class="container px-4 py-5" id="interview">
+            <h4 class="pb-2 border-bottom" id="interview-heading">Upcoming Interview</h4>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                <div class="card">
+                    <div class="top">
+                        <img id="avatar" src="images/man.webp" alt="">
+                        <div class="detail">
+                            <h5>Dennis Degroot</h5>
+                            <p>Graphic Designer</p>
+                            <a href="#">Remote</a>
+                        </div>
+                    </div>
+                    <div id="bottom">
+                        <div class="flex">
+                            <img src="images/location.png" alt="" height="20">
+                            <p>Greenwich, UK</p>
+                        </div>
+                        <div class="flex">
+                            <img src="images/calendar2.png" alt="" height="20">
+                            <p>05 Sep 2019 14:30</p>
+                        </div>
+                        <div class="flex">
+                            <img src="images/phone.png" alt="" height="20">
+                            <p>+44 123 4565</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <img id="avatar" src="images/man.webp" alt="">
+                        <div class="detail">
+                            <h5>Dennis Degroot</h5>
+                            <p>Graphic Designer</p>
+                            <a href="#">Remote</a>
+                        </div>
+                    </div>
+                    <div id="bottom">
+                        <div class="flex">
+                            <img src="images/location.png" alt="" height="20">
+                            <p>Greenwich, UK</p>
+                        </div>
+                        <div class="flex">
+                            <img src="images/calendar2.png" alt="" height="20">
+                            <p>05 Sep 2019 14:30</p>
+                        </div>
+                        <div class="flex">
+                            <img src="images/phone.png" alt="" height="20">
+                            <p>+44 123 4565</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <img id="avatar" src="images/man.webp" alt="">
+                        <div class="detail">
+                            <h5>Dennis Degroot</h5>
+                            <p>Graphic Designer</p>
+                            <a href="#">Remote</a>
+                        </div>
+                    </div>
+                    <div id="bottom">
+                        <div class="flex">
+                            <img src="images/location.png" alt="" height="20">
+                            <p>Greenwich, UK</p>
+                        </div>
+                        <div class="flex">
+                            <img src="images/calendar2.png" alt="" height="20">
+                            <p>05 Sep 2019 14:30</p>
+                        </div>
+                        <div class="flex">
+                            <img src="images/phone.png" alt="" height="20">
+                            <p>+44 123 4565</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <img id="avatar" src="images/man.webp" alt="">
+                        <div class="detail">
+                            <h5>Dennis Degroot</h5>
+                            <p>Graphic Designer</p>
+                            <a href="#">Remote</a>
+                        </div>
+                    </div>
+                    <div id="bottom">
+                        <div class="flex">
+                            <img src="images/location.png" alt="" height="20">
+                            <p>Greenwich, UK</p>
+                        </div>
+                        <div class="flex">
+                            <img src="images/calendar2.png" alt="" height="20">
+                            <p>05 Sep 2019 14:30</p>
+                        </div>
+                        <div class="flex">
+                            <img src="images/phone.png" alt="" height="20">
+                            <p>+44 123 4565</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </main>
+
 
 </body>
 
