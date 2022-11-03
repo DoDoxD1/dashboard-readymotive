@@ -37,7 +37,6 @@
         </div>
     </header>
 
-    <!-- <div class="container"> -->
     <div class="container-fluid">
         <div class="row">
             <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
@@ -90,45 +89,93 @@
             </nav>
         </div>
     </div>
-    <!-- <div class="container-fluid">
-            <h3>hello</h3>
-        </div>
-    </div> -->
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-        <!-- <div class="inteview">
-          <h5>Up coming Interview</h5>
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+
+        <div class="mrow">
+            <div class="applicant">
+                <h4>Applicant Source</h4>
+                <img src="images/source.png" alt="" height="200">
+                <button class="btn btn-primary" id="see-more"> See more</button>
             </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <div class="status">
+                <h4>Current Status</h4>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        New Submission
+                        <span class="badge bg-primary rounded-pill">14</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        In Review
+                        <span class="badge bg-primary rounded-pill">2</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Phone Screening
+                        <span class="badge bg-primary rounded-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Interview
+                        <span class="badge bg-primary rounded-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Closed
+                        <span class="badge bg-primary rounded-pill">1</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        Hired
+                        <span class="badge bg-primary rounded-pill">1</span>
+                    </li>
+                </ul>
             </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
+            <div class="pending">
+                <h4>Pending Requisition approval</h4>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Requisition</th>
+                            <th scope="col">Date</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Java Developer</td>
+                            <td>29 Aug 2019</td>
+                            <td>
+                                <button type="button" class="btn btn-outline-success">Accept</button>
+                                <button type="button" class="btn btn-outline-danger">Decline</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Graphic Designer</td>
+                            <td>29 Aug 2019</td>
+                            <td>
+                                <button type="button" class="btn btn-outline-success">Accept</button>
+                                <button type="button" class="btn btn-outline-danger">Decline</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>.Net Developer</td>
+                            <td>29 Aug 2019</td>
+                            <td>
+                                <button type="button" class="btn btn-outline-success">Accept</button>
+                                <button type="button" class="btn btn-outline-danger">Decline</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Java Developer</td>
+                            <td>29 Aug 2019</td>
+                            <td>
+                                <button type="button" class="btn btn-outline-success">Accept</button>
+                                <button type="button" class="btn btn-outline-danger">Decline</button>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
             </div>
-          </div>
-          <div class="col d-flex align-items-start">
-            <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
-            <div>
-              <h3 class="fw-bold mb-0 fs-4">Featured title</h3>
-              <p>Paragraph of text beneath the heading to explain the heading.</p>
-            </div>
-          </div>
         </div>
-        </div> -->
+
         <div class="container px-4 py-5" id="interview">
             <h4 class="pb-2 border-bottom" id="interview-heading">Upcoming Interview</h4>
 
@@ -234,6 +281,7 @@
 
                 </div>
             </div>
+        </div>
     </main>
 
 

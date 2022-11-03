@@ -60,9 +60,11 @@ main{
     height: 25rem;
     border-radius: .5rem;
     background-color: #f7f7f7;
+    margin-top: 2rem;
 }
 #interview-heading{
     font-weight: 400;
+   color:  rgb(72, 72, 72);
 }
 .card{
     height: 15rem;
@@ -99,4 +101,28 @@ main{
 .flex img{
     margin-right: .5rem;
     margin-top: -1rem;
+}
+.mrow{
+    display: flex;
+}
+.mrow h4{
+    font-weight: 400;
+    color: rgb(72, 72, 72);
+}
+.applicant, .status{
+    width: 25%;
+    margin-right: 1rem;
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: #f7f7f7;
+}
+#see-more{
+    margin: auto;
+    margin-top: 1rem;
+}
+.pending{
+    width: 50%;
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: #f7f7f7;
 }
