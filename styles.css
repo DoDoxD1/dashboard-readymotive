@@ -6,10 +6,14 @@
     font-family: 'Poppins', 'Noto Sans', sans-serif;
     line-height: 1.5rem;
 }
+main{
+    margin-top: 2rem;
+}
 .row{
     width: 100%;
     min-height: 100vh;
     position: fixed;
+    z-index: 10;
 }
 #logo{
     padding: 1rem;
@@ -148,5 +152,17 @@
     }
     .mflex{
         flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    #logo{
+        width: 100%;
+    }
+    .topbar{
+        display: none;
+    }
+    #nav-btn{
+        right: 10px;
     }
   }
